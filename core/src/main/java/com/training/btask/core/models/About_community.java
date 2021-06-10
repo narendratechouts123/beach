@@ -9,7 +9,7 @@ import org.apache.sling.models.annotations.Model;
 @Model(adaptables= Resource.class,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 
 public class About_community {
-//ok	s
+//ok	
 	@Inject
 	String chead;
 	@Inject 
