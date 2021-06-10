@@ -1,0 +1,5 @@
+com\training\btask\core\schedulers\SimpleScheduledTaskTest.class
+com\training\btask\core\servlets\SimpleServletTest.class
+com\training\btask\core\models\HelloWorldModelTest.class
+com\training\btask\core\listeners\SimpleResourceListenerTest.class
+com\training\btask\core\filters\LoggingFilterTest.class

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="workflows.RenameImage" enabled="true" immediate="true">
+  <property name="service.description" type="String" value="It will rename assets without white spaces"/>
+  <property name="process.label" type="String" value="Rename Asset"/>
+  <property name="propertyPrivate" type="String" value="true"/>
+  <service>
+    <provide interface="com.adobe.granite.workflow.exec.WorkflowProcess"/>
+  </service>
+  <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resourceResolverFactory"/>
+  <implementation class="workflows.RenameImage"/>
+</scr:component>
